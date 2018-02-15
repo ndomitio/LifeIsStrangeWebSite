@@ -1,0 +1,61 @@
+﻿
+.container {
+display: grid;
+}
+
+section.grid-item.grid-item-1 {
+    background-color: lightpink;
+    height: 100px;
+}
+
+section.grid-item.grid-item-2 {
+    background-color: firebrick;
+    height: 75px;
+}
+
+section.grid-item.grid-item-3 {
+    background-image: url('Images/junkyard.jpg');
+    height: 500px;
+    text-align: right;
+    
+    background-size: cover;
+}
+.jumbotron{
+    margin-top: 10%;
+}
+img#firstimage {
+    width: 30%;
+    height: 40%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    height: 75%;
+    overflow: hidden;
+    background-color: firebrick;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 25px;
+       
+        
+    }
+
+        li a:hover:not(.active) {
+            background-color: black;
+        }
+
+.active {
+    background-color: black;
+}
